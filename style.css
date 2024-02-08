@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&display=swap');
+body{
+    padding: 0px 100px;text-transform: capitalize;background: #2F1893;
+;font-family: 'DM Sans', sans-serif;
+}
+nav{
+display: flex;justify-content: space-between;;color: #ffffff
+}
+.nav-links{
+display: flex;justify-content: space-around;width: 30%;align-items: center
+}
+.nav-links>h4{
+font-weight: 200
+}
+.signin{
+padding: 5px 20px;border-radius: 20px;background-color: rgb(81, 81, 216)
+}
+.container{
+width: 100%;display: flex;justify-content: center;flex-wrap: wrap
+}
+.content-head{
+width: 100%;display: flex;justify-content: center
+}
+.content-head>h1{
+font-size: 72px ;width: 55%;text-align: center;color: #ffffff
+}
+.content-p{
+display: flex;justify-content: center;color: #ffffff
+}
+.content-p>p{
+font-size: 22px;width: 50%;text-align: center;line-height: 30px
+}
+form{
+display: flex;gap: 10px
+}
+#inputemail{
+
+width:270px; 
+padding: 10px 20px;
+border-radius: 100px;;background: transparent;border: 2px solid gray;color:#FFFFFF
+}
+#btn{
+padding: 10px 20px
+;border-radius: 100px; background: #25DAC5;
+;color: #ffffff;outline: none;border: none
+}
+.input-field>p{
+color: gray;text-align: center
+}
+
